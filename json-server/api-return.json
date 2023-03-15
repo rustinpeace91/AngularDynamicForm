@@ -1,0 +1,359 @@
+{
+  "account-requirements" : [
+    {
+        "type": "US",
+        "title": "United States",
+        "fields":[
+            {
+                "key": "email",
+                "name": "Email",
+                "type": "text",
+                "refreshREquirementsOnChange": false,
+                "required": true,
+                "validationRegexp": "\\s*[a-zA-Z0-9.!#$%&'*+\\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+\\s*",
+                "valuesAllowed": null
+            },
+            {
+                "key": "accountHolderName",
+                "name": "Full Name of the Account Holder",
+                "type": "text",
+                "refreshREquirementsOnChange": false,
+                "required": true,
+                "validationRegexp": "^[0-9A-Za-zÀ-ÖØ-öø-ÿ-_()'*,.%#^@&{}~<>+$\"\\[\\]\\\\ ]+$",
+                "valuesAllowed": null
+            },
+            {
+                "key": "addressLine1",
+                "name": "Street Address",
+                "type": "text",
+                "refreshREquirementsOnChange": false,
+                "required": true,
+                "validationRegexp": "^[0-9A-Za-zÀ-ÖØ-öø-ÿ-_()'*,.%#^@&{}~<>+$\"\\[\\]\\\\ ]+$",
+                "valuesAllowed": null
+            },
+            {
+                "key": "addressCity",
+                "name": "City",
+                "type": "text",
+                "refreshREquirementsOnChange": false,
+                "required": true,
+                "validationRegexp": "^[0-9A-Za-zÀ-ÖØ-öø-ÿ-_()'*,.%#^@&{}~<>+$\"\\[\\]\\\\ ]+$",
+                "valuesAllowed": null
+            },
+            {
+                "key": "addressPostCode",
+                "name": "Zip Code",
+                "type": "text",
+                "refreshREquirementsOnChange": false,
+                "required": true,
+                "validationRegexp": "^[0-9A-Za-zÀ-ÖØ-öø-ÿ-_()'*,.%#^@&{}~<>+$\"\\[\\]\\\\ ]+$",
+                "valuesAllowed": null
+            },
+            {
+                "key": "addressState",
+                "name": "State",
+                "type": "select",
+                "refreshRequirementsOnChange": false,
+                "required": true,
+                "validationRegexp": null,
+                "validationAsync": null,
+                "valuesAllowed": [
+                  {
+                    "key": "AL",
+                    "name": "Alabama"
+                  },
+                  {
+                    "key": "AK",
+                    "name": "Alaska"
+                  },
+                  {
+                    "key": "AZ",
+                    "name": "Arizona"
+                  },
+                  {
+                    "key": "AR",
+                    "name": "Arkansas"
+                  },
+                  {
+                    "key": "AA",
+                    "name": "Armed Forces Americas"
+                  },
+                  {
+                    "key": "AE",
+                    "name": "Armed Forces Europe"
+                  },
+                  {
+                    "key": "AP",
+                    "name": "Armed Forces Pacific"
+                  },
+                  {
+                    "key": "CA",
+                    "name": "California"
+                  },
+                  {
+                    "key": "CO",
+                    "name": "Colorado"
+                  },
+                  {
+                    "key": "CT",
+                    "name": "Connecticut"
+                  },
+                  {
+                    "key": "DE",
+                    "name": "Delaware"
+                  },
+                  {
+                    "key": "DC",
+                    "name": "District of Columbia"
+                  },
+                  {
+                    "key": "FL",
+                    "name": "Florida"
+                  },
+                  {
+                    "key": "GA",
+                    "name": "Georgia"
+                  },
+                  {
+                    "key": "GU",
+                    "name": "Guam"
+                  },
+                  {
+                    "key": "HI",
+                    "name": "Hawaii"
+                  },
+                  {
+                    "key": "ID",
+                    "name": "Idaho"
+                  },
+                  {
+                    "key": "IL",
+                    "name": "Illinois"
+                  },
+                  {
+                    "key": "IN",
+                    "name": "Indiana"
+                  },
+                  {
+                    "key": "IA",
+                    "name": "Iowa"
+                  },
+                  {
+                    "key": "KS",
+                    "name": "Kansas"
+                  },
+                  {
+                    "key": "KY",
+                    "name": "Kentucky"
+                  },
+                  {
+                    "key": "LA",
+                    "name": "Louisiana"
+                  },
+                  {
+                    "key": "ME",
+                    "name": "Maine"
+                  },
+                  {
+                    "key": "MD",
+                    "name": "Maryland"
+                  },
+                  {
+                    "key": "MA",
+                    "name": "Massachusetts"
+                  },
+                  {
+                    "key": "MI",
+                    "name": "Michigan"
+                  },
+                  {
+                    "key": "MN",
+                    "name": "Minnesota"
+                  },
+                  {
+                    "key": "MS",
+                    "name": "Mississippi"
+                  },
+                  {
+                    "key": "MO",
+                    "name": "Missouri"
+                  },
+                  {
+                    "key": "MT",
+                    "name": "Montana"
+                  },
+                  {
+                    "key": "NE",
+                    "name": "Nebraska"
+                  },
+                  {
+                    "key": "NV",
+                    "name": "Nevada"
+                  },
+                  {
+                    "key": "NH",
+                    "name": "New Hampshire"
+                  },
+                  {
+                    "key": "NJ",
+                    "name": "New Jersey"
+                  },
+                  {
+                    "key": "NM",
+                    "name": "New Mexico"
+                  },
+                  {
+                    "key": "NY",
+                    "name": "New York"
+                  },
+                  {
+                    "key": "NC",
+                    "name": "North Carolina"
+                  },
+                  {
+                    "key": "ND",
+                    "name": "North Dakota"
+                  },
+                  {
+                    "key": "MP",
+                    "name": "Northern Mariana Islands"
+                  },
+                  {
+                    "key": "OH",
+                    "name": "Ohio"
+                  },
+                  {
+                    "key": "OK",
+                    "name": "Oklahoma"
+                  },
+                  {
+                    "key": "OR",
+                    "name": "Oregon"
+                  },
+                  {
+                    "key": "PA",
+                    "name": "Pennsylvania"
+                  },
+                  {
+                    "key": "PR",
+                    "name": "Puerto Rico"
+                  },
+                  {
+                    "key": "RI",
+                    "name": "Rhode Island"
+                  },
+                  {
+                    "key": "SC",
+                    "name": "South Carolina"
+                  },
+                  {
+                    "key": "SD",
+                    "name": "South Dakota"
+                  },
+                  {
+                    "key": "TN",
+                    "name": "Tennessee"
+                  },
+                  {
+                    "key": "TX",
+                    "name": "Texas"
+                  },
+                  {
+                    "key": "UT",
+                    "name": "Utah"
+                  },
+                  {
+                    "key": "VT",
+                    "name": "Vermont"
+                  },
+                  {
+                    "key": "VI",
+                    "name": "Virgin Islands"
+                  },
+                  {
+                    "key": "VA",
+                    "name": "Virginia"
+                  },
+                  {
+                    "key": "WA",
+                    "name": "Washington"
+                  },
+                  {
+                    "key": "WV",
+                    "name": "West Virginia"
+                  },
+                  {
+                    "key": "WI",
+                    "name": "Wisconsin"
+                  },
+                  {
+                    "key": "WY",
+                    "name": "Wyoming"
+                  }
+                ]
+              }
+        ]
+    },
+    {
+        "type": "CA",
+        "title": "Canada",
+        "fields":[
+            {
+                "key": "email",
+                "name": "Email",
+                "type": "text",
+                "refreshREquirementsOnChange": false,
+                "required": true,
+                "validationRegexp": "\\s*[a-zA-Z0-9.!#$%&'*+\\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+\\s*",
+                "valuesAllowed": null
+            },
+            {
+                "key": "accountHolderName",
+                "name": "Full Name of the Account Holder",
+                "type": "text",
+                "refreshREquirementsOnChange": false,
+                "required": true,
+                "validationRegexp": "^[0-9A-Za-zÀ-ÖØ-öø-ÿ-_()'*,.%#^@&{}~<>+$\"\\[\\]\\\\ ]+$",
+                "valuesAllowed": null
+            },
+            {
+                "key": "addressLine1",
+                "name": "Street Address",
+                "type": "text",
+                "refreshREquirementsOnChange": false,
+                "required": true,
+                "validationRegexp": "^[0-9A-Za-zÀ-ÖØ-öø-ÿ-_()'*,.%#^@&{}~<>+$\"\\[\\]\\\\ ]+$",
+                "valuesAllowed": null
+            },
+            {
+                "key": "addressCity",
+                "name": "City",
+                "type": "text",
+                "refreshREquirementsOnChange": false,
+                "required": true,
+                "validationRegexp": "^[0-9A-Za-zÀ-ÖØ-öø-ÿ-_()'*,.%#^@&{}~<>+$\"\\[\\]\\\\ ]+$",
+                "valuesAllowed": null
+            },
+            {
+                "key": "addressPostCode",
+                "name": "Post Code",
+                "type": "text",
+                "refreshREquirementsOnChange": false,
+                "required": true,
+                "validationRegexp": "[ABCEGHJKLMNPRSTVXYabceghjklmnprstvxy][0-9][ABCEGHJKLMNPRSTVWXYZabceghjklmnprstvwxyz] ?[0-9][ABCEGHJKLMNPRSTVWXYZabceghjklmnprstvwxyz][0-9]",
+                "valuesAllowed": null
+            },
+            {
+                "key": "addressState",
+                "name": "State",
+                "type": "text",
+                "refreshREquirementsOnChange": false,
+                "required": true,
+                "validationRegexp": "^[0-9A-Za-zÀ-ÖØ-öø-ÿ-_()'*,.%#^@&{}~<>+$\"\\[\\]\\\\ ]+$",
+                "valuesAllowed": null
+            }
+        ]
+    }
+  
+]
+}
