@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+#bg{
+    background-color: #19213b;
+    min-height: 100vh;
+}
+
+#dyn-form{
+    min-height: 100vh;
+    max-width: 90vh;
+    /* background-color: #f6f5f4 */
+    background-color: #fafafa
+}
+
+button{
+    margin-top:1em;
+}
+
+input:invalid {
+    border-color: #b81616
+}
+
+.ng-invalid {
+    border-color: #b81616
+}

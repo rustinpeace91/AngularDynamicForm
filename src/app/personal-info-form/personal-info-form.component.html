@@ -1,11 +1,11 @@
-<p>personal-info-form works!</p>
+<p>Changing the Country will change the post code validation, state dropdown</p>
 
 <select class="form-select" aria-label="Default select example" [formControl]="selectedFormOption" (ngModelChange)="updateFormOption()">
     <option>--</option>
     <option *ngFor="let data of APIData" value="{{data.type}}" [class.selected]="data.type === selectedFormOption.value" >{{ data.title }}</option>
 </select>
-<button class="btn" (click)="printSelectedForm()">Print Form to Console</button>
-
 <div *ngIf="fieldsReady">
     <app-dynamic-form-display [form]="form" [fields]="selectedFormData.fields"></app-dynamic-form-display>
 </div>
+
+<button class="btn btn-primary" (click)="printSelectedForm()">Print Form</button>

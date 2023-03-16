@@ -8,7 +8,7 @@
                 "key": "email",
                 "name": "Email",
                 "type": "text",
-                "refreshREquirementsOnChange": false,
+                "refreshRequirementsOnChange": false,
                 "required": true,
                 "validationRegexp": "\\s*[a-zA-Z0-9.!#$%&'*+\\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+\\s*",
                 "valuesAllowed": null
@@ -17,7 +17,7 @@
                 "key": "accountHolderName",
                 "name": "Full Name of the Account Holder",
                 "type": "text",
-                "refreshREquirementsOnChange": false,
+                "refreshRequirementsOnChange": false,
                 "required": true,
                 "validationRegexp": "^[0-9A-Za-zÀ-ÖØ-öø-ÿ-_()'*,.%#^@&{}~<>+$\"\\[\\]\\\\ ]+$",
                 "valuesAllowed": null
@@ -26,7 +26,7 @@
                 "key": "addressLine1",
                 "name": "Street Address",
                 "type": "text",
-                "refreshREquirementsOnChange": false,
+                "refreshRequirementsOnChange": false,
                 "required": true,
                 "validationRegexp": "^[0-9A-Za-zÀ-ÖØ-öø-ÿ-_()'*,.%#^@&{}~<>+$\"\\[\\]\\\\ ]+$",
                 "valuesAllowed": null
@@ -35,7 +35,7 @@
                 "key": "addressCity",
                 "name": "City",
                 "type": "text",
-                "refreshREquirementsOnChange": false,
+                "refreshRequirementsOnChange": false,
                 "required": true,
                 "validationRegexp": "^[0-9A-Za-zÀ-ÖØ-öø-ÿ-_()'*,.%#^@&{}~<>+$\"\\[\\]\\\\ ]+$",
                 "valuesAllowed": null
@@ -44,9 +44,9 @@
                 "key": "addressPostCode",
                 "name": "Zip Code",
                 "type": "text",
-                "refreshREquirementsOnChange": false,
+                "refreshRequirementsOnChange": false,
                 "required": true,
-                "validationRegexp": "^[0-9A-Za-zÀ-ÖØ-öø-ÿ-_()'*,.%#^@&{}~<>+$\"\\[\\]\\\\ ]+$",
+                "validationRegexp": "^\\d{5}$",
                 "valuesAllowed": null
             },
             {
@@ -56,7 +56,6 @@
                 "refreshRequirementsOnChange": false,
                 "required": true,
                 "validationRegexp": null,
-                "validationAsync": null,
                 "valuesAllowed": [
                   {
                     "key": "AL",
@@ -302,7 +301,7 @@
                 "key": "email",
                 "name": "Email",
                 "type": "text",
-                "refreshREquirementsOnChange": false,
+                "refreshRequirementsOnChange": false,
                 "required": true,
                 "validationRegexp": "\\s*[a-zA-Z0-9.!#$%&'*+\\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+\\s*",
                 "valuesAllowed": null
@@ -311,7 +310,7 @@
                 "key": "accountHolderName",
                 "name": "Full Name of the Account Holder",
                 "type": "text",
-                "refreshREquirementsOnChange": false,
+                "refreshRequirementsOnChange": false,
                 "required": true,
                 "validationRegexp": "^[0-9A-Za-zÀ-ÖØ-öø-ÿ-_()'*,.%#^@&{}~<>+$\"\\[\\]\\\\ ]+$",
                 "valuesAllowed": null
@@ -320,7 +319,7 @@
                 "key": "addressLine1",
                 "name": "Street Address",
                 "type": "text",
-                "refreshREquirementsOnChange": false,
+                "refreshRequirementsOnChange": false,
                 "required": true,
                 "validationRegexp": "^[0-9A-Za-zÀ-ÖØ-öø-ÿ-_()'*,.%#^@&{}~<>+$\"\\[\\]\\\\ ]+$",
                 "valuesAllowed": null
@@ -329,7 +328,7 @@
                 "key": "addressCity",
                 "name": "City",
                 "type": "text",
-                "refreshREquirementsOnChange": false,
+                "refreshRequirementsOnChange": false,
                 "required": true,
                 "validationRegexp": "^[0-9A-Za-zÀ-ÖØ-öø-ÿ-_()'*,.%#^@&{}~<>+$\"\\[\\]\\\\ ]+$",
                 "valuesAllowed": null
@@ -338,7 +337,7 @@
                 "key": "addressPostCode",
                 "name": "Post Code",
                 "type": "text",
-                "refreshREquirementsOnChange": false,
+                "refreshRequirementsOnChange": false,
                 "required": true,
                 "validationRegexp": "[ABCEGHJKLMNPRSTVXYabceghjklmnprstvxy][0-9][ABCEGHJKLMNPRSTVWXYZabceghjklmnprstvwxyz] ?[0-9][ABCEGHJKLMNPRSTVWXYZabceghjklmnprstvwxyz][0-9]",
                 "valuesAllowed": null
@@ -347,7 +346,7 @@
                 "key": "addressState",
                 "name": "State",
                 "type": "text",
-                "refreshREquirementsOnChange": false,
+                "refreshRequirementsOnChange": false,
                 "required": true,
                 "validationRegexp": "^[0-9A-Za-zÀ-ÖØ-öø-ÿ-_()'*,.%#^@&{}~<>+$\"\\[\\]\\\\ ]+$",
                 "valuesAllowed": null

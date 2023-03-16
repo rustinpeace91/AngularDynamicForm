@@ -1,4 +1,4 @@
-<div class="form" [formGroup] = "form">
+<form class="form needs-validation" [formGroup] = "form" novalidate>
     <div *ngFor="let field of fields">
         <div class="form-group row">
             <label class="form-control-label mt-2" [attr.for]="field.name">
@@ -25,4 +25,4 @@
     </div>
     <br/>
     <br/> 
-  </div>
+</form>

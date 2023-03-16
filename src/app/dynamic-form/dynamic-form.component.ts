@@ -34,12 +34,11 @@ export class DynamicFormComponent {
       // clear form when the select box is changed
       this.selectedFormData = new DynamicFormResponse('', '', []);
       this.form = new FormGroup({});
-
       this.APIData.forEach(fullForm => {
-        console.log(this.selectedFormOption.value)
         if(fullForm.type === this.selectedFormOption.value){
           this.selectedFormData = fullForm
           this.selectedFormData.fields.forEach(f =>{
+            console.log(f.validationRegexp)
             let validator = f.validationRegexp !== null ? Validators.pattern(f.validationRegexp): Validators.pattern("")
             this.form.addControl(f.key,
               new FormControl('', [Validators.required, validator])
@@ -52,7 +51,7 @@ export class DynamicFormComponent {
   }
 
   printSelectedForm(): void{
-    console.log(this.selectedFormData)
+    console.log(this.form)
   }
 
 
